@@ -1,0 +1,131 @@
+.img-container {
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.img {
+  border-radius: 30px;
+  padding: 10px;
+  transition: transform 0.5s ease;
+  width: calc(100% - 10px);
+  height: auto;
+}
+  
+.slider-container {
+  max-width: 960px;
+  position: relative;
+}
+
+.custom-arrow {
+  width: 30px;
+  height: 30px;
+  background: radial-gradient(70.74% 100.65% at 50% 50%, rgb(244, 192, 79) 0%, rgb(239, 166, 6) 100%);
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-btn-pulsation {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  z-index: -1;
+  transform: scale(0);
+  animation: pulsation 2s infinite;
+  background: radial-gradient(70.74% 100.65% at 50% 50%, rgb(244, 192, 79) 0%, rgb(239, 166, 6) 100%);;
+}
+
+
+@keyframes pulsation {
+  0% {
+      -ms-transform: scale(0);
+      -webkit-transform: scale(0);
+      transform: scale(0);
+      opacity: 1
+  }
+
+  50% {
+      opacity: .5
+  }
+
+  to {
+      -ms-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+      opacity: 0
+  }
+}
+
+.prev {
+  left: -35px;
+}
+
+.next {
+  right: -35px; 
+}
+
+
+@media (max-width: 450px) {
+  .slider-container{
+    width: 300px;
+    margin-bottom: -50px;
+  }
+  .img{
+    width: calc(100% - 10px);
+  }
+
+  .custom-arrow{
+    top: 30%
+  }
+}
+
+@media (min-width: 450px) and (max-width: 479px) {
+  .slider-container{
+    width: 380px;
+    margin-bottom: -50px;
+  }
+  .img{
+    width: calc(100% - 10px);
+  }
+  .custom-arrow{
+    top: 32%;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .slider-container{
+    width: 400px;
+    margin-bottom: -50px;
+  }
+  .img{
+    width: calc(100% - 10px);
+  }
+  .custom-arrow{
+    top: 32%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider-container{
+    width: 600px;
+    margin-bottom: -50px;
+  }
+  .img{
+    width: calc(100% - 10px);
+  }
+  .custom-arrow{
+    top: 32%;
+  }
+}

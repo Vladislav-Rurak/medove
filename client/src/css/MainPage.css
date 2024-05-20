@@ -1,0 +1,1481 @@
+@font-face {
+    font-family: 'NAMU-Pro';
+    src: url('./../fonts/fonts/NAMU-Pro.woff') format('woff'),
+         url('./../fonts/fonts/NAMU-Pro.woff2')  format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'NAMU-1750';
+    src: url('./../fonts/fonts/NAMU-1750.woff') format('woff'),
+         url('./../fonts/fonts/NAMU-1750.woff2')  format('woff2');
+    font-weight: 300;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    overflow-x: hidden;
+    background-color: #FFF8E7;
+}
+
+.f-13-l-40 {
+    font-family: 'NAMU-1750', sans-serif;
+    font-size: 13px;
+    line-height: 40px;
+}
+
+.f-40 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.f-25 {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.f-15 {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.f-13-l-20 {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.ml-mr-20{
+    margin: 0 auto; 
+    max-width: 1400px;
+}
+.body {
+    font-family: 'NAMU-Pro', sans-serif;
+  }
+.mt-50{
+    margin-top: 50px;
+}
+
+.mb-50{
+    margin-bottom: 120px;
+}
+
+.t-color-C68800{
+    color: #C68800;
+}
+
+.t-color-0{
+    color: #000000;
+}
+
+.t-color-FFF{
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo{
+    width: 120px;
+}
+
+.menu-items{
+    background-color: white;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    margin-left: 120px;
+    margin-right: 140px;
+}
+
+.honey-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+
+.honey-header-background{
+    background-color: #FFF8E7;
+}
+
+.honey-header div{
+    width: 455px;
+}
+
+.honey-header img{
+    width: 675px;
+    height: 560px;
+}
+
+.honey-header-h3{
+    width: 300px;
+    height: 41px;
+    background-color: #FFF1D0;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.contact-us-btn-top{
+    background: radial-gradient(circle at center, #F4C04F, #EFA606);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    height: 55px;
+    width: 195px;
+    margin-top: 25px;
+}
+
+.contact-us-btn-top>a{
+    color: #FFFFFF;
+}
+
+.contact-us-btn-bot{
+    background: radial-gradient(circle at center, #F4C04F, #EFA606);
+    color: #FFFFFF;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.contact-us-btn-bot>a{
+    color: #FFFFFF;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.about-us-bg{
+    background-image: url('../../public/images/system/bg/header-bg-cont.svg');   
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-item{
+    width: 465px;
+}
+
+.about-us-item>h2{
+    background: linear-gradient(180deg, #30a3ff, #30a3ff 50%, #F4C04F 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ukranian-honey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ukranian-honey-header{
+    text-align: center;
+}
+
+.ukranian-honey-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.ukranian-honey-p{
+    width: 550px;
+    height: 310px;
+}
+
+.our-bees-and-hives-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.our-bees-and-hives-container-item{
+    text-align: center;
+    margin: auto;
+}
+
+.our-bees-and-hives-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.our-bees-and-hives-item img{
+    width: 450px;
+    height: 100%;
+}
+
+.our-bees-and-hives-item div{
+    width: 500px;
+}
+
+.imgContainer {
+    max-width: 1150px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.imgContainerItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 800px;
+    height: 400px;
+}
+
+.imgContainerItem img {
+    border-radius: 30px;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    width: calc(50% - 10px)
+}
+
+.sideContainer {
+    width: 400px;
+    height: 400px;
+}
+
+.sideContainer img {
+    border-radius: 30px;
+    width: 400px;
+    height: 410px;
+    object-fit: cover;
+}
+
+.our-service-container-background{
+    background-image: url('../../public/images/system/bg/our-service-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 635px;
+}
+
+.our-service-container{
+    display: flex;
+    justify-content: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    padding-top: 210px;
+}
+
+.our-service-container img{
+    width: 550px;
+}
+
+.our-service{
+    width: 440px;
+    margin-bottom: 30px;
+}
+
+.our-service-container>div>h2{
+    background: linear-gradient(180deg, #30a3ff, #30a3ff 50%, #F4C04F 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.our-production-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+.mb-20 { margin-bottom: 20px; }
+.mb-40 { margin-bottom: 40px }
+
+
+.medove-form {
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-bottom: 50px;
+    width: calc(960px - 128px);
+    height: calc(320px - 96px);
+    background: radial-gradient(circle at center,#f4c04f,#efa606);
+    padding: 48px 64px;
+    border-radius: 60px;
+    overflow: hidden;
+}
+
+.medove-form-text {
+    width: 462px;
+    height: 128px;
+}
+
+.medove-form-left-part {
+    align-content: end;
+    z-index: 1;
+}
+
+.medove-inputs {
+    width: calc(195px - 30px);
+    height: calc(55px -30px);
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.medove-submit-btn {
+    color: #FFFFFF;
+    font-size: 15px;
+    width: 195px;
+    height: 55px;
+    background: #442E00;
+    border-radius: 10px;
+}
+
+.medove-form-pic {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 60px 60px 0;
+    z-index: 0;
+}
+
+
+.footer-bg-color{
+    background-color: #442E00;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    width: 960px;
+}
+
+.call{
+    width: 150px;
+    margin-top: 17px;
+}
+
+.map>iframe{
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+.arrow-top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 10px;
+    background: radial-gradient(circle at center, #F4C04F, #EFA606);
+    position: absolute;
+    top: 50%;
+    right: -100px;
+}
+
+.arrow-top-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+.arrow-top-btn img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.toggle-img{
+    display: none;
+}
+
+.call-us-btn {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background: radial-gradient(circle at center, #F4C04F, #EFA606);
+}
+
+.call-us-btn a img{
+    margin-top: 3px;
+}
+
+@supports (-webkit-touch-callout: none) {
+    .call-us-btn a img {
+        margin-top: 3px;
+        margin-left: -5px;
+    }
+}
+
+@media (max-width: 449px) {
+    .f-30{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .ml-mr-20{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mb-50{
+        margin-bottom: 50px;
+    }
+
+    .menu-items {
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: block; 
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    .toggle-img{
+        display: block;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+    
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .menu-items.active {
+        display: block;
+    }
+
+    .menu-items img{
+        height: 350px;
+    }
+
+    .call-us-btn{
+        top: 10px;
+        right: 20px;
+    }
+
+    .honey-header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .honey-header div{
+        width: 370px;
+        height: 390px;
+        margin: auto;
+    }
+
+    .honey-header img{
+        width: 380px;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .about-us-bg{
+        background-image: url('../../public/images/system/bg/header-bg-cont.svg');   
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+    }
+
+    .about-us img{
+        width: 300px;
+        margin: auto;
+    }
+
+    .about-us-item{
+        width: 370px;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .ukranian-honey-item{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50px;
+    }
+
+    .ukranian-honey-p{
+        width: 370px;
+        height: 450px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .ukranian-honey-item img{
+        width: 370px;
+    }
+
+    .our-bees-and-hives-container-item{
+        width: 370px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 350px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .imgContainerItem{
+        display: flex;
+        justify-content: center;
+        width: 370px;
+        height: 330px;
+    }
+
+    .imgContainerItem img{
+        width: 175px;
+        height: 110px;
+    }
+
+    .sideContainer img{
+        width: 360px;
+        height: 220px;
+        margin-bottom: 10px;
+    }
+
+    .our-bees-and-hives-item{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        margin: auto;
+    }
+
+    .our-bees-and-hives-item div{
+        width: 370px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .our-bees-and-hives-item img{
+        width: 370px;
+    }
+
+    .our-service-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .our-service-container img{
+        width: 370px;
+        margin: auto;
+        margin-top: -200px;
+        margin-bottom: 50px;
+    }
+
+    .our-service-container div{
+        width: 370px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .our-service-container>div>p{
+        width: 370px;
+    }
+
+    .our-production-container{
+        margin-top: 100px;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 30%;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 480px){
+    .f-30{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .body {
+        overflow-x: hidden;
+    }
+    
+    .mb-50{
+        margin-bottom: 50px;
+    }
+
+    .ml-mr-20{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-items {
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: block; 
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    .toggle-img{
+        display: block;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+    
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .menu-items.active {
+        display: block;
+    }
+
+    .menu-items img{
+        height: 450px;
+    }
+
+    .call-us-btn{
+        top: 10px;
+        right: 30px;
+    }
+
+    .honey-header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .honey-header div{
+        width: 370px;
+        height: 390px;
+        margin: auto;
+    }
+
+    .honey-header img{
+        width: 380px;
+        height: auto;
+        margin: auto;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+    }
+
+    .about-us img{
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .about-us-item{
+        width: 370px;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+
+    .ukranian-honey-item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ukranian-honey-p{
+        width: 370px;
+        height: 450px;
+        margin: auto;
+    }
+
+    .ukranian-honey-item img{
+        width: 370px;
+    }
+
+    .our-bees-and-hives-container-item{
+        width: 370px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 350px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .imgContainerItem{
+        display: flex;
+        justify-content: center;
+        width: 370px;
+        height: 330px;
+        margin: auto;
+    }
+
+    .imgContainerItem img{
+        width: 175px;
+        height: 110px;
+    }
+
+    .sideContainer img{
+        width: 360px;
+        height: 220px;
+        margin-bottom: 10px;
+    }
+
+    .our-bees-and-hives-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-bees-and-hives-item div p{
+        width: 370px;
+        margin: auto;
+    }
+
+    .our-bees-and-hives-item img{
+        width: 370px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+    }
+
+    .our-service-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: -150px;
+    }
+
+    .our-service-container img{
+        width: 370px;
+        margin: auto;
+        margin-top: -300px;
+
+    }
+
+    .our-service-container div{
+        width: 370px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .our-service-container>div>p{
+        width: 370px;
+    }
+
+    .our-production-container{
+        margin-top: -50px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 20px; 
+        width: 430px;
+        margin: auto;
+    }
+    
+    .footer img {
+        grid-column: 1 / -1; 
+        justify-self: center; 
+        width: 160px;
+        height: 55px;
+    }
+    
+    .footer > div:nth-child(2),
+    .footer > div:nth-child(3) {
+        grid-column: span 1;
+    }
+    
+    .footer .map {
+        grid-column: 1 / -1;    
+    }
+    .map iframe{
+        width: 320px;
+        height: 190px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .f-30{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mb-50{
+        margin-bottom: 50px;
+    }
+    
+    .ml-mr-20{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-items {
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: block; 
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    .toggle-img{
+        display: block;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+    
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .menu-items.active {
+        display: block;
+    }
+
+    .menu-items img{
+        height: 450px;
+    }
+
+    .call-us-btn{
+        top: 10px;
+        right: 30px;
+    }
+
+    .honey-header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .honey-header div{
+        width: 500px;
+        height: 390px;
+        margin: auto;
+    }
+
+    .honey-header img{
+        width: 500px;
+        height: auto;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .about-us img{
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    .about-us-item{
+        width: 500px;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .ukranian-honey-item{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .ukranian-honey-p{
+        width: 500px;
+        height: 450px;
+        margin: auto;
+    }
+
+    .ukranian-honey-item img{
+        width: 500px;
+    }
+
+    .our-bees-and-hives-container-item{
+        width: 500px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 500px;
+        height: 600px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .imgContainerItem{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+    }
+
+    .imgContainerItem img{
+        height: 150px;
+    }
+
+    .sideContainer img{
+        width: 490px;
+        height: 300px;
+    }
+
+    .our-bees-and-hives-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-bees-and-hives-item div{
+        margin: auto;
+    }
+
+    .our-bees-and-hives-item div p{
+        width: 500px;
+        margin: auto;
+    }
+
+    .our-bees-and-hives-item img{
+        width: 500px;
+        margin: auto;
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .our-service-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-service-container img{
+        width: 500px;
+        margin: auto;
+        margin-top: -250px;
+    }
+
+    .our-service-container div{
+        width: 500px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .our-service-container>div>p{
+        width: 500px;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        gap: 20px; 
+        width: 500px;
+        margin: auto;
+    }
+    
+    .footer img {
+        grid-column: 1 / -1; 
+        justify-self: center; 
+        width: 210px;
+        height: 55px;
+    }
+    
+    .footer > div:nth-child(2),
+    .footer > div:nth-child(3) {
+        grid-column: span 1;
+    }
+    
+    .footer .map {
+        grid-column: 1 / -1;    
+    }
+    .map iframe{
+        width: 500px;
+        height: 200px;
+    }   
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .f-30{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .body {
+        overflow-x: hidden;
+    }
+    
+    .mb-50{
+        margin-bottom: 50px;
+    }
+
+    .ml-mr-20{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-items {
+        display: none;
+    }
+    
+    .menu-toggle {
+        display: block; 
+        cursor: pointer;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    .toggle-img{
+        display: block;
+        margin: auto;
+    }
+    
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #333;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+    
+    .menu-toggle.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+    .menu-items.active {
+        display: block;
+    }
+
+    .menu-items img{
+        height: 450px;
+    }
+
+    .call-us-btn{
+        top: 10px;
+        right: 30px;
+    }
+
+    .honey-header{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .honey-header div{
+        width: 500px;
+        height: 390px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .honey-header img{
+        width: 600px;
+        height: auto;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+    }
+
+    .about-us img{
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    .about-us-item{
+        width: 550px;
+        margin-right: -50px;
+    }
+
+    .ukranian-honey-item{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ukranian-honey-p{
+        width: 500px;
+        height: 450px;
+        margin-top: 50px;
+        margin: auto;
+    }
+
+    .ukranian-honey-item img{
+        width: 500px;
+    }
+
+    .our-bees-and-hives-container{
+        margin-top: -100px;
+    }
+
+    .our-bees-and-hives-container-item{
+        width: 600px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .imgContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 600px;
+        height: 800px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+
+    .imgContainerItem{
+        display: flex;
+        justify-content: center;
+        width: 610px;
+        margin-top: 10px;
+    }
+
+    .imgContainerItem img{
+        height: 200px;
+    }
+
+    .sideContainer img{
+        width: 600px;
+        height: 400px;
+    }
+
+    .our-bees-and-hives-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-bees-and-hives-item div{
+        width: 600px;
+        margin: auto;
+    }
+
+    .our-bees-and-hives-item img{
+        width: 600px;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+
+    .our-service-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-service-container img{
+        width: 500px;
+        margin: auto;
+        margin-top: -250px;
+    }
+
+    .our-service-container div{
+        width: 500px;
+        height: 180px;
+        margin: auto;
+    }
+
+    .our-service-container>div>p{
+        width: 500px;
+    }
+
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+    }
+
+    .footer-item{
+        padding: 10px;
+    }
+
+    .footer-item div{
+        padding: 10px;
+    }
+    
+}
+  
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .f-30{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .body {
+        overflow-x: hidden;
+    }
+
+    .mb-50{
+        margin-bottom: 50px;
+    }
+    
+    .ml-mr-20{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .call-us-btn{
+        top: 10px;
+        right: 50px;
+    }
+
+    .honey-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+    }
+
+    .honey-header div{
+        width: 500px;
+        height: 200px;
+        margin: auto;
+        margin-top: 120px;
+    }
+
+    .honey-header img{
+        width: 450px;
+        height: auto;
+        margin: auto;
+    }
+
+    .ukranian-honey-p{
+        width: 500px;
+        height: 450px;
+        margin: auto;
+    }
+
+    .ukranian-honey-item img{
+        width: 500px;
+        margin-bottom: 80px;
+    }
+
+    .our-bees-and-hives-container-item{
+        width: 600px;
+        height: 90px;
+        margin-bottom: 20px;
+    }
+
+    .imgContainer{
+        width: 900px;
+        height: 400px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        margin:auto;
+    }
+
+    .imgContainerItem{
+        width: 600px;
+        margin-top: 10px;
+    }
+
+    .imgContainerItem img{
+        height: 200px;
+    }
+
+    .sideContainer img{
+        width: 300px;
+        height: 410px;
+        margin-top: 10px;
+    }
+
+    .our-bees-and-hives-item{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 120px;
+    }
+
+    .our-bees-and-hives-item div{
+        width: 500px;
+        margin: auto;
+    }
+
+    .our-service-container{
+        width: 960px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 960px) {
+    .medove-form { 
+        width: calc(870px - 128px); 
+    }
+    .ml-mr-20{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .medove-submit-btn {
+        text-align: center;
+    }
+}
+@media (max-width: 768px) {
+    .medove-form {
+        display: block;
+        position: relative;
+        width: calc(370px - 40px);
+        height: calc(730px - 148px);
+        padding: 74px 20px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .medove-form-text {
+        width: 328px;
+        height: auto;
+        margin-bottom: 20px !important;
+    }
+
+    .medove-form-left-part {
+        position: relative;
+    }
+
+    .medove-inputs {
+        width: calc(328px - 32px);
+        height: calc(55px - 32px);
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .medove-submit-btn {
+        width: 328px;
+        height: 55px;
+    }
+
+    .medove-form-pic {
+        position: absolute;
+        top: auto;
+        bottom: -85px;
+        right: -75px;
+        z-index: 0;
+    }
+}

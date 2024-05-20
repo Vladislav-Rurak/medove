@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'NAMU-1750';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('NAMU-1750'), local('NAMU-1750'), url('./fonts/NAMU-1750.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'NAMU 1960';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('NAMU-1960'), local('NAMU-1960'), url('./fonts/NAMU-1960.woff2') format('truetype');
+}
+
+@font-face {
+  font-family: 'NAMU Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('NAMU-Pro'), local('NAMU-Pro'), url('./fonts/NAMU-Pro.woff2') format('truetype');
+}
