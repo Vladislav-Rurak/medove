@@ -8,14 +8,37 @@
     margin: auto;
 }
 
+
+
+
 @media (max-width: 450px){
     .menu-items{
-        background: radial-gradient(circle at center, #F5D76E, #F4C04F);
-        width: 102%;
-        height: 430px;
-        margin: auto;
-        margin-top: 45px;
+        background-color: #fff4db ;
+        width: 100%;
+        height: 82vh;
         margin-left: -20px;
+        top: 0;
+        left: 0;
+    }
+
+    .menu-items.active {
+        transform: translateX(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .menu-items div{
+        margin-bottom: 20px;
+    }
+
+    .menu-items div a{
+        font-size: 30px;
+        color: #442E00;
+    }
+
+    h4{
+        font-size: 25px;
+        color: #442E00;
     }
 
     .menu-toggle{
@@ -23,16 +46,16 @@
     }
     .header{
         height: 70px;
-        margin-top: 10px;
     }
 
     .mob-menu-p{
         width: 200px;
     }
 
-    .map iframe{
-        width: 250px;
+    .map-mob iframe{
+        width: 200px;
         height: 150px;
+        border-radius: 20px;
     }
 
     }
@@ -40,13 +63,15 @@
 
 @media (min-width: 450px) and (max-width: 480px){
     .menu-items{
-        background: radial-gradient(circle at center, #F5D76E, #F4C04F);
-        width: 105%;
-        height: 450px;
-        margin: auto;
+        background-color: #fff4db ;
+        width: 100%;
+        height: 82vh;
+        margin-top: 20px;
         margin-left: -20px;
-        margin-top: 50px;
+        top: 0;
+        left: 0;
     }
+
     .menu-toggle{
         width: 95%;
     }
@@ -57,46 +82,53 @@
 
 }
 
-@media (min-width: 481px) and (max-width:  1024px) {
+@media (min-width: 481px) and (max-width:  768px) {
     .menu-items{
-        background: radial-gradient(circle at center, #F5D76E, #F4C04F);
-        width: 105%;
-        height: 450px;
-        margin: auto;
+        background-color: #fff4db ;
+        width: 100%;
+        height: 82vh;
+        margin-top: 20px;
         margin-left: -20px;
-        margin-top: 50px;
+        top: 0;
+        left: 0;
     }
+
     .menu-toggle{
-        width: 95%;
+        width: 100%;
     }
+
     .header{
         height: 70px;
     }
 
-    .map iframe{
+    .map-mob iframe{
         width: 350px;
+        border-radius: 20px;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1024px){
     .menu-items{
-        background: radial-gradient(circle at center, #F5D76E, #F4C04F);
-        width: 105%;
-        height: 550px;
-        margin: auto;
+        background-color: #fff4db ;
+        width: 100%;
+        height: 82vh;
+        margin-top: 20px;
         margin-left: -20px;
-        margin-top: 50px;
+        top: 0;
+        left: 0;
     }
+
     .menu-toggle{
-        width: 95%;
+        width: 100%;
     }
     .header{
         height: 70px;
     }
 
-    .map iframe{
+    .map-mob iframe{
         width: 550px;
         height: 250px;
+        border-radius: 20px;
     }
 }
 

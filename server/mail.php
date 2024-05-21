@@ -1,24 +1,22 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Проверка получения данных
     error_log("POST data: " . print_r($_POST, true));
 
     $name = $_POST['name'] ?? '';
-    $phone = $_POST['phone'] ?? '';
+    $email = $_POST['email'] ?? '';
 
-    // Проверка переменных
-    error_log("Name: $name, Phone: $phone");
+    error_log("Name: $name, Email: $email");
 
     $to = 'medovehoney@gmail.com';
-    $subject = 'Новый запрос на покупку';
-    $message = 'Имя: ' . $name . "\n" . 'Телефон: ' . $phone . "\n";
+    $subject = 'New purchase request';
+    $message = 'Name: ' . $name . "\n" . 'E-mail: ' . $email . "\n";
     $headers = 'From: medove.com.ua' . "\r\n" .
                'X-Mailer: PHP/' . phpversion();
 
     if (mail($to, $subject, $message, $headers)) {
-        echo 'Ваш запрос успешно отправлен!';
+        echo 'Your request has been successfully sent';
     } else {
-        echo 'Ошибка при отправке запроса.';
+        echo 'Error sending a request.';
     }
 }
 ?>

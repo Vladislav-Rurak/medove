@@ -1,25 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.326100b5.css",
-    "main.js": "/static/js/main.ab42197d.js",
+    "main.css": "/static/css/main.33517d03.css",
+    "main.js": "/static/js/main.73d8657f.js",
     "static/js/317.620855c6.chunk.js": "/static/js/317.620855c6.chunk.js",
-    "static/media/NAMU-Pro.woff": "/static/media/NAMU-Pro.06b3d4d443bc43dfbc29.woff",
-    "static/media/NAMU-Pro.woff2": "/static/media/NAMU-Pro.43182ba2a9a7af23b023.woff2",
-    "static/media/NAMU-1750.woff": "/static/media/NAMU-1750.c58c70d3f436f7fdfa8f.woff",
-    "static/media/NAMU-1750.woff2": "/static/media/NAMU-1750.cd21bd79ce066544354d.woff2",
-    "static/media/header-bg-cont.svg": "/static/media/header-bg-cont.123b433006c7a2d1052c.svg",
+    "static/media/SITKAVF-ITALIC.ttf": "/static/media/SITKAVF-ITALIC.9586d215d615557d7f80.ttf",
+    "static/media/SITKAVF.ttf": "/static/media/SITKAVF.684e256659ef53c4e41b.ttf",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "static/media/our-service-bg.svg": "/static/media/our-service-bg.8588e95910d069b3c24b.svg",
-    "main.326100b5.css.map": "/static/css/main.326100b5.css.map",
-    "main.ab42197d.js.map": "/static/js/main.ab42197d.js.map",
+    "main.33517d03.css.map": "/static/css/main.33517d03.css.map",
+    "main.73d8657f.js.map": "/static/js/main.73d8657f.js.map",
     "317.620855c6.chunk.js.map": "/static/js/317.620855c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.326100b5.css",
-    "static/js/main.ab42197d.js"
+    "static/css/main.33517d03.css",
+    "static/js/main.73d8657f.js"
   ]
 }

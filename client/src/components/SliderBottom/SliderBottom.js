@@ -47,6 +47,7 @@ const SliderBottom = ({ images }) => {
     slidesToScroll: 1,
     swipeToSlide: true, 
     centerMode: true,
+    arrows: false
   };
 
   return (

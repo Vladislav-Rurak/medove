@@ -1,14 +1,12 @@
 @font-face {
-    font-family: 'NAMU-Pro';
-    src: url('./../fonts/fonts/NAMU-Pro.woff') format('woff'),
-         url('./../fonts/fonts/NAMU-Pro.woff2')  format('woff2');
+    font-family: 'SITKAVF';
+    src: url('./../fonts/fonts/SITKAVF.ttf') format('woff');
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'NAMU-1750';
-    src: url('./../fonts/fonts/NAMU-1750.woff') format('woff'),
-         url('./../fonts/fonts/NAMU-1750.woff2')  format('woff2');
+    font-family: 'SITKAVF-ITALIC';
+    src: url('./../fonts/fonts/SITKAVF-ITALIC.ttf') format('woff');
     font-weight: 300;
 }
 
@@ -16,14 +14,65 @@ html {
     scroll-behavior: smooth;
 }
 
+/* @keyframes gradientAnimation {
+    0% {
+      background-color: #FFF9E6;
+    }
+    25% {
+      background-color: #FFE0B2;
+    }
+    50% {
+      background-color: #FFD699;
+    }
+    75% {
+      background-color: #FFCC80;
+    }
+    100% {
+      background-color: #FFF9E6;
+    }
+}
+  
 .body {
     overflow-x: hidden;
-    background-color: #FFF8E7;
+    animation: gradientAnimation 10s ease infinite;
+} */
+
+@keyframes gradientAnimation {
+    0% {
+      background-color: #FFF;
+    }
+    20% {
+        background-color: #FFF;
+    }
+    40% {
+      background-color: #FFF3D9;
+    }
+    60% {
+      background-color: #FFF3D9;
+    }
+    80% {
+        background-color: #FFF3D9;
+      }
+      100% {
+        background-color: #FFF;
+      }
+}
+
+  
+.body {
+    overflow-x: hidden;
+    animation: gradientAnimation 6s ease infinite;
+    box-shadow: 0 0 15px #ccc;
+}
+
+
+.f-13-l-40 {
+    font-size: 13px;
+    line-height: 40px;
 }
 
 .f-13-l-40 {
-    font-family: 'NAMU-1750', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 40px;
 }
 
@@ -47,13 +96,18 @@ html {
     line-height: 20px;
 }
 
+.font-sitka-it{
+    font-family: 'SITKAVF-ITALIC', sans-serif;
+}
+
 .ml-mr-20{
     margin: 0 auto; 
     max-width: 1400px;
 }
 .body {
-    font-family: 'NAMU-Pro', sans-serif;
-  }
+    font-family: 'SITKAVF', sans-serif;
+}
+
 .mt-50{
     margin-top: 50px;
 }
@@ -83,16 +137,59 @@ a{
     width: 120px;
 }
 
-.menu-items{
+.anim-img {
+    opacity: 0;
+    transform: scale(0.5);
+    animation: imgFadeIn 2s ease-in-out forwards, imgShake 4s infinite alternate; 
+}
+
+@keyframes imgFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes imgShake {
+    to {
+        transform: translateY(10px);
+    }
+    from {
+        transform: translateY(-10px);
+    }
+}
+
+.anim-button {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.header{
     background-color: white;
-    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px #ccc;
+}
+
+.menu-items{
+    width: 1150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
     position: sticky;
-    margin-left: 120px;
-    margin-right: 140px;
 }
 
 .honey-header{
@@ -103,10 +200,8 @@ a{
     height: 500px;
     margin-bottom: 120px;
     margin-top: 50px;
-}
-
-.honey-header-background{
-    background-color: #FFF8E7;
+    border: 1px solid rgb(204, 204, 204, 0.5);
+    border-radius: 20px;
 }
 
 .honey-header div{
@@ -114,8 +209,8 @@ a{
 }
 
 .honey-header img{
-    width: 675px;
-    height: 560px;
+    width: 547px;
+    height: 469px;
 }
 
 .honey-header-h3{
@@ -125,6 +220,8 @@ a{
     border-radius: 15px;
     text-align: center;
     line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .contact-us-btn-top{
@@ -165,13 +262,6 @@ a{
     margin-bottom: 120px;
 }
 
-.about-us-bg{
-    background-image: url('../../public/images/system/bg/header-bg-cont.svg');   
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .about-us-item{
     width: 465px;
 }
@@ -195,8 +285,9 @@ a{
 }
 
 .ukranian-honey-item{
+    max-width: 1400px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
 }
@@ -218,11 +309,13 @@ a{
 }
 
 .our-bees-and-hives-item{
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 120px;
+    margin-left: 120px;
 }
 
 .our-bees-and-hives-item img{
@@ -269,13 +362,6 @@ a{
     width: 400px;
     height: 410px;
     object-fit: cover;
-}
-
-.our-service-container-background{
-    background-image: url('../../public/images/system/bg/our-service-bg.svg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 635px;
 }
 
 .our-service-container{
@@ -428,27 +514,7 @@ select {
     display: none;
 }
 
-.call-us-btn {
-    position: absolute;
-    top: 20px;
-    right: 50px;
-    width: 40px;
-    height: 40px;
-    border-radius: 30px;
-    border: none;
-    background: radial-gradient(circle at center, #F4C04F, #EFA606);
-}
 
-.call-us-btn a img{
-    margin-top: 3px;
-}
-
-@supports (-webkit-touch-callout: none) {
-    .call-us-btn a img {
-        margin-top: 3px;
-        margin-left: -5px;
-    }
-}
 
 @media (max-width: 449px) {
     .f-30{
@@ -479,7 +545,18 @@ select {
     .toggle-img{
         display: block;
     }
-    
+
+    .bar-container{
+        width: 50px;
+        height: 50px;
+        margin-top: 15px;
+    }
+
+    .mob-menu{
+        width: 25px;
+        height: 25px;
+    }
+
     .bar {
         width: 25px;
         height: 3px;
@@ -508,11 +585,6 @@ select {
         height: 350px;
     }
 
-    .call-us-btn{
-        top: 10px;
-        right: 20px;
-    }
-
     .honey-header{
         display: flex;
         flex-direction: column;
@@ -529,12 +601,6 @@ select {
         width: 380px;
         height: auto;
         margin-top: 80px;
-    }
-
-    .about-us-bg{
-        background-image: url('../../public/images/system/bg/header-bg-cont.svg');   
-        background-repeat: no-repeat;
-        background-size: auto;
     }
 
     .about-us{
@@ -648,7 +714,7 @@ select {
     }
 
     .our-production-container{
-        margin-top: 100px;
+        margin-top: 220px;
     }
 
 
@@ -722,12 +788,6 @@ select {
     .menu-items img{
         height: 450px;
     }
-
-    .call-us-btn{
-        top: 10px;
-        right: 30px;
-    }
-
     .honey-header{
         display: flex;
         flex-direction: column;
@@ -885,7 +945,7 @@ select {
         grid-column: 1 / -1;    
     }
     .map iframe{
-        width: 320px;
+        width: 300px;
         height: 190px;
     }
 }
@@ -950,11 +1010,6 @@ select {
 
     .menu-items img{
         height: 450px;
-    }
-
-    .call-us-btn{
-        top: 10px;
-        right: 30px;
     }
 
     .honey-header{
@@ -1171,11 +1226,6 @@ select {
         height: 450px;
     }
 
-    .call-us-btn{
-        top: 10px;
-        right: 30px;
-    }
-
     .honey-header{
         display: flex;
         flex-direction: column;
@@ -1337,11 +1387,6 @@ select {
     .ml-mr-20{
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .call-us-btn{
-        top: 10px;
-        right: 50px;
     }
 
     .honey-header {
